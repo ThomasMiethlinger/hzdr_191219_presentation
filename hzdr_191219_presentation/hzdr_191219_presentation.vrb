@@ -1,0 +1,15 @@
+\frametitle{Conclusion and Outlook}
+\begin{itemize}
+ \item Performed long-time simulation of technical process(fluidized bed).
+ \item Implemented sHA with \(\approx 70\%\) efficiency\footnote{Currently in private repo: \url{https://github.com/ThomasMiethlinger/master_thesis_work/tree/master/programs/src/hungarian_algorithm}}
+ \item Theoretical work: \(d_{\text{Euler}} \stackrel{\text{?}}{\leftrightarrow} d_{\text{Lagrange}}\), implications for RQA quantities
+ \begin{itemize}
+  \item Results show: Leading order depends on kernel shape, coefficient on kernel size / radius \(R\).
+  \item Most quantities depend strongly on distance function, correlation dimension appears invariant to choice \(d_{\text{Euler}}\), \(d_{\text{Lagrange}}\)
+ \end{itemize}
+ \item Computational work:
+ \begin{itemize}
+  \item compute distance / recurrence matrices for \(d_{\text{Euler}}, d_{\text{Lagrange}}\) with different kernels and powers
+  \item RQA of computed recurrence matrices
+ \end{itemize}
+\end{itemize}

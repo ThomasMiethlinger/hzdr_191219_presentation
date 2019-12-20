@@ -1,0 +1,48 @@
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%	COLOR PALETTE
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\ProvidesPackage{beamercolorthemejkutnf}
+
+\DeclareOptionBeamer*{%
+  \PackageWarning{beamercolorthemejkutnf}{Unknown option `\CurrentOption'}%
+}
+
+\ProcessOptionsBeamer
+
+% Palettes
+\setbeamercolor{palette primary}{fg=jkuBlue, bg=white}
+\setbeamercolor{palette secondary}{fg=black,bg=white}
+\setbeamercolor{palette tertiary}{fg=jkuGrey, bg=white}
+\setbeamercolor{palette quaternary}{fg=jkuPurple, bg=jkuDarkGrey}
+
+% Titlepage
+\setbeamercolor{title}{parent=palette primary}
+\setbeamercolor{subtitle}{parent=palette secondary}
+\setbeamercolor{institute}{parent=normal text}
+
+% Content
+\setbeamercolor{frametitle}{parent=palette primary}
+
+% Blocks
+\setbeamercolor{block title}{fg=white,bg=jkuDarkGrey}
+\setbeamercolor{block body}{parent=normal text, bg=jkuGrey!20}
+\setbeamercolor{block title example}{fg=white, bg=jkuDarkGrey}
+\setbeamercolor{block body example}{parent=normal text, bg=jkuGrey!20}
+\setbeamercolor{block title alerted}{fg=white, bg=jkuPurple}
+\setbeamercolor{block body alerted}{fg=black, bg=jkuPurple!15}
+
+% Page Number
+\setbeamercolor{page number in head/foot}{fg=jkuDarkGrey}
+\setbeamercolor{itemize item}{parent=palette primary}
+\setbeamercolor{itemize subitem}{parent=palette primary}
+\setbeamercolor{itemize subsubitem}{parent=palette primary}
+\setbeamercolor{enumerate item}{parent=palette primary}
+\setbeamercolor{enumerate subitem}{parent=palette primary}
+\setbeamercolor{enumerate subsubitem}{parent=palette primary}
+\setbeamercolor{description item}{parent=palette primary}
+
+\setbeamercolor{progressbar}{parent=palette quaternary}
+\setbeamercolor{sectionpage sectiontitle}{parent=palette primary}
+
+\mode<all>

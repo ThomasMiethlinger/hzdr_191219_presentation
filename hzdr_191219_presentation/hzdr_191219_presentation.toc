@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Preliminary}{3}{0}{1}
+\beamer@sectionintoc {2}{Recurrence Quantitative Analysis of Particulate Systems}{6}{0}{2}
+\beamer@sectionintoc {3}{Results}{20}{0}{3}
+\beamer@sectionintoc {4}{Conclusion and Outlook}{27}{0}{4}
